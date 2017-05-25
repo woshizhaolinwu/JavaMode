@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import jrdcom.com.javamode.FactoryMode.FactoryModelFragment;
+import jrdcom.com.javamode.StructModel.StructModelFragment;
 
 public class MainActivity extends AppCompatActivity {
     private List<String> listString = new ArrayList<>();
@@ -31,8 +32,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initData(){
-        listString.add("1.1 创建型模式");
-        listString.add("1.2 抽象工厂类");
+        listString.add("1 创建型模式");
+        listString.add("2 结构型模式");
     }
 
     ListFragment.ListOnClick listOnClick = new ListFragment.ListOnClick() {
@@ -44,6 +45,13 @@ public class MainActivity extends AppCompatActivity {
                             .replace(R.id.main_screen, new FactoryModelFragment())
                             .addToBackStack(FactoryModelFragment.TAG)
                             .commit();
+                    break;
+                case 1: //结构型模式
+                    getFragmentManager().beginTransaction()
+                            .replace(R.id.main_screen, new StructModelFragment())
+                            .addToBackStack(StructModelFragment.TAG)
+                            .commit();
+
                     break;
             }
         }

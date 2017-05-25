@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--
+        适配器模式
+        装饰模式
+        代理模式
+        外观模式
+        桥接模式
+        组合模式
+        享元模式
+    -->
+    <Button
+        android:id="@+id/btn_adapter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="适配器模式"/>
+    <Button
+        android:id="@+id/btn_decoration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="装饰模式"/>
+    <Button
+        android:id="@+id/btn_proxy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="代理模式"/>
+    <Button
+        android:id="@+id/btn_exterior"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="外观模式"/>
+    <Button
+        android:id="@+id/btn_bridge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="桥接模式"/>
+    <Button
+        android:id="@+id/btn_combination"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="组合模式"/>
+</LinearLayout>
