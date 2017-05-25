@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="创建型模式"/>
+    <!--工厂方法模式-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/normal_factory_mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="普通工厂模式"/>
+        <Button
+            android:id="@+id/multi_factory_mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="多个工厂模式"/>
+        <Button
+            android:id="@+id/static_factory_mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="静态工厂模式"/>
+    </LinearLayout>
+
+    <!--抽象工厂模式-->
+    <Button
+        android:id="@+id/btn_abstract_factory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="抽象工厂模式"/>
+
+    <!--单例模式-->
+    <Button
+        android:id="@+id/btn_signle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="单例模式"/>
+
+    <!--建造者模式-->
+    <Button
+        android:id="@+id/btn_builder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="建造者模式"/>
+</LinearLayout>
