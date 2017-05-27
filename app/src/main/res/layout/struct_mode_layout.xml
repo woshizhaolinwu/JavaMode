@@ -11,11 +11,29 @@
         组合模式
         享元模式
     -->
-    <Button
-        android:id="@+id/btn_adapter"
+
+    <!--适配模式：类的适配器， 对象适配，接口适配-->
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="适配器模式"/>
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_adapter_class"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="类的适配"/>
+        <Button
+            android:id="@+id/btn_adapter_object"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="对象适配"/>
+        <Button
+            android:id="@+id/btn_adapter_interface"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="接口适配"/>
+    </LinearLayout>
+
     <Button
         android:id="@+id/btn_decoration"
         android:layout_width="match_parent"
